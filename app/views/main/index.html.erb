@@ -1,0 +1,6 @@
+<%= form_with url: '/upload', method: :post do |form| %>
+  <%= form.text_field :first_name, placeholder: 'First Name' %>
+  <%= form.text_field :last_name, placeholder: 'Last Name' %>
+  <%= form.text_field :company_name, placeholder: 'Company Name' %>
+  <%= form.submit 'Upload' %>
+<% end %>
